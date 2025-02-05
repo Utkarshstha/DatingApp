@@ -1,0 +1,17 @@
+{
+  "name": "tinder",
+  "version": "1.0.0",
+  "description": "tinder",
+  "main": "index.js",
+  "scripts": {
+  "dev":"nodemon src/App.js"
+  },
+  "keywords": [
+    "node"
+  ],
+  "author": "utkarsh shrestha",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.21.2"
+  }
+}
