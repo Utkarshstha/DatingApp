@@ -5,6 +5,24 @@ app.get("/", (req,res)=>{
     res.send("hello form homeland");
 });
 
+app.get("/user/:userid",(req,res)=>{
+
+    console.log(req.query)
+     console.log(req.params)
+    res.send({
+        firstname:"Utkarsh",
+        lastname:"Shrestha"
+    })
+})
+
+app.post("/user",(req,res)=>{
+    res.send("Date sucessfully saved to database");
+})
+
+app.delete("/user",(req,res)=>{
+    res.send("Data deleted secussfully");
+})
+
 app.get("/about",(req,res)=>{
     res.send("Hello from the server");
 });
