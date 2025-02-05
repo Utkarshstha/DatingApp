@@ -2,7 +2,7 @@ const express=require('express')
 const app=express();
 
 app.get("/", (req,res)=>{
-    res.send("hello form homeland");
+    res.send("hello form homelandd");
 });
 
 app.get("/user/:userid",(req,res)=>{
